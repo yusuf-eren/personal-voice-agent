@@ -1,0 +1,29 @@
+{
+    "name": "voiceagent",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@google-cloud/vertexai": "^1.10.0",
+        "@google/genai": "^1.8.0",
+        "@openai/agents": "^0.0.10",
+        "axios": "^1.10.0",
+        "dotenv": "^17.0.1",
+        "mime": "^4.0.7",
+        "mime-types": "^3.0.1",
+        "openai": "^5.8.2",
+        "uuid": "^11.1.0",
+        "ws": "^8.18.3"
+    },
+    "devDependencies": {
+        "@types/mime-types": "^3.0.1",
+        "@types/ws": "^8.18.1"
+    }
+}
